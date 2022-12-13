@@ -29,21 +29,18 @@ _Sep 2, 2022_ _BY KRISTINE_
    5. use ' for single quotes
 7. Spotlight
    1. Disable Spotlight except for Applications and System Preferences
-8. Mission Control
-   1. Hot Corners: disable all
-9. Finder
+8. Finder
    1. Sidebar on locations
    2. Hide all Tags
    3. Show all Filename Extensions
    4. Search the current folder
    5. view show tab/path/status bar
-   6. Command + Shift + . (period) to make the hidden files appear.
-10. Dictionary
-    1. Add chinese simplified dictionary
-    2. Delete wiki and apple dictionary
-11. Sharing
+9. Dictionary
+   1. Add chinese simplified dictionary
+   2. Delete wiki and apple dictionary
+10. Sharing
     1. Change computer name
-12. Terminal
+11. Terminal
 
     1. Change terminal user name
 
@@ -58,6 +55,12 @@ _Sep 2, 2022_ _BY KRISTINE_
        ```shell
        defaults write com.apple.finder AppleShowAllFiles YES
        ```
+
+12. Security & Privacy -> General
+    1. _immediately_ after sleep or screen saver begin
+13. Screen saver
+    1. Flip Clock Screen Saver
+    2. Set Right Hot Corner to screen saver and cancel other corner
 
 ## STEP 2 Homebrew
 
@@ -115,8 +118,6 @@ ts-node
       2. Startup
          1. Use System Window Restoration Setting
          2. select "close windows when closing an app"
-      3. Closing
-         1. Unselect "Confirm 'Quit iTerm2'"
    2. Appearance
       1. Windows: select "Hide scrollbar"
       2. Tabs:
